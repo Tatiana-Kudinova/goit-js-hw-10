@@ -1,0 +1,77 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-top: 8px;
+  width: 360px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.input:hover {
+  border: 1px solid #000;
+}
+.input:active {
+  border: 1px solid #4e75ff;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+fieldset {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  width: 360px;
+  height: 64px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}
+fieldset:hover,
+:active {
+  stroke: #000;
+}
+.radio-btn {
+  display: flex;
+  flex-direction: row;
+}
+
+legend {
+  margin-left: 28px;
+}
+
+.btn {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #6c8cff;
+}
+.stroke {
+  border-bottom: 2px solid #b5ea7c;
+  border-radius: 4px;
+  padding: 20px;
+  width: 383px;
+  height: 64px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
